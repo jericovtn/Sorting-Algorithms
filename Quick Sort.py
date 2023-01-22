@@ -32,5 +32,5 @@ def partition(array, left, right):
 
 array = [40, 10, 55, 96, 16, 93, 56, 4, 98, 69]
 
-quickSort(array)
+quickSort(array, 0, len(array) -1)
 print(array)
