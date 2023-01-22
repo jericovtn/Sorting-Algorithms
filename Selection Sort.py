@@ -10,6 +10,7 @@ def selectionSort(array):
             if array[j] < array[minPosition]:
                 minPosition = j
 
-
-
 array = [40, 10, 55, 96, 16, 93, 56, 4, 98, 69]
+
+selectionSort(array)
+print(array)
