@@ -8,8 +8,13 @@ def mergeSort(arr):
         leftArray = arr[:len(array)//2]
         rightArray = arr[len(array)//2:]
 
+        # Recursion
         mergeSort(leftArray)
-        mergeSort(rightArray    )
+        mergeSort(rightArray)
 
+        # Merge
+        i = 0 # for left array index
+        j = 0 # for right array indez
+        k = 0 # for merge array index
 
 array = [40, 10, 55, 96, 16, 93, 56, 4, 98, 69]
