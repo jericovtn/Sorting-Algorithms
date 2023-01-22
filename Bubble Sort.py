@@ -11,6 +11,7 @@ def bubbleSort(array):
                 array[j] = array[j + 1]
                 array [j + 1] = temporary
 
+        #print(array)
 
 array = [40, 10, 55, 96, 16, 93, 56, 4, 98, 69]
 
