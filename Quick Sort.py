@@ -6,6 +6,8 @@
 def quickSort(array, left, right):
     if left < right:
         partitionPosition = partition(array, left, right)
+        quickSort(array, left, partitionPosition -1)
+        quickSort(array, partitionPosition + 1, right)
 
 def partition(array, left, right):
 
