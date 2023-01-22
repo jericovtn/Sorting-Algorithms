@@ -3,6 +3,12 @@
 # Selection Sort
 # January 27, 2023
 
+def selectionSort(array):
+    for i in range(9):
+        minPosition = i
+        for j in range(i, 10):
+            if array[j] < array[minPosition]:
+                minPosition = j
 
 
 
