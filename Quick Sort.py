@@ -23,13 +23,15 @@ def partition(array, left, right):
             j -= 1
         if i < j:
             array[i], array[j] = array[j], array[i]
-
+    
     if array[i] > pivot:
             array[i], array[right] = array[right], array[i]
-        
+    
+    # print(array) 
+
     return i
 
-
+    
 array = [40, 10, 55, 96, 16, 93, 56, 4, 98, 69]
 
 quickSort(array, 0, len(array) -1)

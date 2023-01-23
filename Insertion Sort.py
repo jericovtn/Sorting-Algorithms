@@ -5,12 +5,12 @@
 
 def insertionSort(array):
     for i in range(1, len(array)):
-        j = i
-        while array[j - 1] > array[j] and j > 0:
-            array[j - 1], array[j] = array[j], array[j - 1]
-            j -= 1
+        key = i
+        while array[key - 1] > array[key] and key > 0:
+            array[key - 1], array[key] = array[key], array[key - 1]
+            key -= 1
         
-        #print(array)
+        # print(array)
 
 array = [40, 10, 55, 96, 16, 93, 56, 4, 98, 69]
 
