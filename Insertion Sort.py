@@ -10,7 +10,7 @@ def insertionSort(array):
             array[key - 1], array[key] = array[key], array[key - 1]
             key -= 1
         
-        # print(array)
+        print(array)
 
 array = [40, 10, 55, 96, 16, 93, 56, 4, 98, 69]
 
